@@ -8,9 +8,14 @@ test("static itinerary contains the trip title and all four day controls", async
   assert.match(html, /中南部/);
   assert.match(html, /四天三夜小旅行/);
   assert.match(html, /神農街夜間漫步/);
+  assert.match(html, /湖東牛肉館・午餐/);
+  assert.match(html, /奇美博物館・《埃及之王：法老》/);
+  assert.doesNotMatch(html, /國立臺灣歷史博物館/);
   assert.match(html, /<strong>23<\/strong> 站/);
   for (const image of [
     "yongle-market.jpg",
+    "hudong-beef.jpg",
+    "chimei-pharaoh.jpg",
     "helmet-shop.jpg",
     "heart-guesthouse.jpg",
     "wenzhang-beef-soup.jpg",

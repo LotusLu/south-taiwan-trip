@@ -28,7 +28,7 @@ const days: Day[] = [
   {
     number: 1,
     city: "五股 → 台南",
-    theme: "溫體牛・法老展・夜市散策",
+    theme: "溫體牛・法老展・古城夜色",
     subtitle: "一路南下先吃湖東牛肉館，再走進奇美博物館的古埃及世界，晚上繼續台南散策。",
     accent: "brick",
     stops: [
@@ -106,23 +106,11 @@ const days: Day[] = [
       },
       {
         period: "晚上",
-        time: "20:00 — 21:30",
-        title: "台南花園夜市",
-        area: "北區",
-        cost: "依消費而定",
-        note: "夜市通常於週四、六、日營業；出發前再確認當日公告。建議先繞一圈再決定吃什麼。",
-        image: "/images/garden-night-market.jpg",
-        imageAlt: "燈火熱鬧的台南花園夜市",
-        mapQuery: "台南花園夜市",
-        badge: "夜生活",
-      },
-      {
-        period: "晚上",
-        time: "21:45 — 22:30",
+        time: "20:00 — 21:00",
         title: "神農街夜間漫步",
         area: "中西區",
         cost: "—",
-        note: "夜市後到神農街慢慢散步，欣賞老屋、燈籠與入夜後的街景。若當天較疲累，也可彈性縮短停留時間。",
+        note: "晚餐後到神農街慢慢散步，欣賞老屋、燈籠與入夜後的街景。若當天較疲累，也可彈性縮短停留時間。",
         image: "/images/shennong-street.jpg",
         imageAlt: "燈籠映照的台南神農街夜景",
         mapQuery: "台南神農街",
@@ -133,8 +121,8 @@ const days: Day[] = [
   {
     number: 2,
     city: "台南慢遊",
-    theme: "化石探險・巷弄選物",
-    subtitle: "早餐吃得像台南人，午後把步調放慢，留給老街、冰品與器皿美學。",
+    theme: "化石探險・選物・花園夜市",
+    subtitle: "早餐吃得像台南人，午後留給化石、冰品與器皿美學，晚上再用花園夜市收尾。",
     accent: "mustard",
     stops: [
       {
@@ -199,7 +187,7 @@ const days: Day[] = [
       },
       {
         period: "晚上",
-        time: "18:00 — 21:00",
+        time: "18:00 — 19:30",
         title: "海安路・神農街慢步與晚餐",
         area: "中西區",
         cost: "依消費而定",
@@ -208,6 +196,18 @@ const days: Day[] = [
         imageAlt: "夜色中的台南神農街",
         mapQuery: "台南神農街 海安路",
         badge: "散步",
+      },
+      {
+        period: "晚上",
+        time: "20:00 — 21:30",
+        title: "台南花園夜市",
+        area: "北區",
+        cost: "依消費而定",
+        note: "夜市通常於週四、六、日營業；出發前再確認當日公告。建議先繞一圈再決定吃什麼。",
+        image: "/images/garden-night-market.jpg",
+        imageAlt: "燈火熱鬧的台南花園夜市",
+        mapQuery: "台南花園夜市",
+        badge: "夜生活",
       },
     ],
   },

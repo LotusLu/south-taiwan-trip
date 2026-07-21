@@ -187,18 +187,6 @@ const days: Day[] = [
       },
       {
         period: "晚上",
-        time: "18:00 — 19:30",
-        title: "海安路・神農街慢步與晚餐",
-        area: "中西區",
-        cost: "依消費而定",
-        note: "老屋、燈籠與街頭光影，是台南最迷人的夜晚。邊走邊選晚餐，把時間留給偶遇。",
-        image: "/images/shennong-street.jpg",
-        imageAlt: "夜色中的台南神農街",
-        mapQuery: "台南神農街 海安路",
-        badge: "散步",
-      },
-      {
-        period: "晚上",
         time: "20:00 — 21:30",
         title: "台南花園夜市",
         area: "北區",
@@ -295,8 +283,8 @@ const days: Day[] = [
   {
     number: 4,
     city: "台中 → 五股",
-    theme: "睡飽・午餐・輕鬆回家",
-    subtitle: "最後一天不趕行程，睡飽再吃一頓喜歡的午餐，把旅行的餘韻帶回家。",
+    theme: "睡飽・午餐・飛行體驗",
+    subtitle: "最後一天睡飽再吃午餐，到中央公園體驗飛行後，帶著旅行的餘韻輕鬆回家。",
     accent: "blue",
     stops: [
       {
@@ -325,14 +313,26 @@ const days: Day[] = [
       },
       {
         period: "下午",
-        time: "13:30 — 16:00",
+        time: "13:45 — 15:15",
+        title: "中央公園遊客中心・飛行體驗館",
+        area: "西屯區",
+        cost: "免費參觀",
+        note: "遊客中心 09:00–17:00 開放。館內特色飛航館以實體 737 客機打造座艙，還有航空展示與互動體驗；出發前可再確認當日設施公告。",
+        image: "/images/central-park-flight.jpg",
+        imageAlt: "台中中央公園遊客中心特色飛航館的飛機座艙體驗空間",
+        mapQuery: "台中中央公園遊客中心 中科路2966號",
+        badge: "飛行體驗",
+      },
+      {
+        period: "下午",
+        time: "15:30 — 18:00",
         title: "輕鬆北上返家・五股",
         area: "國道北上",
         cost: "—",
         note: "結束豐富的四天三夜。若精神或路況需要，服務區停一次也比硬撐更快樂。",
         image: "/images/taiwan-road.jpg",
         imageAlt: "晴朗的台灣公路回家路上",
-        mapQuery: "南屯區到五股區",
+        mapQuery: "台中中央公園遊客中心到五股區",
         badge: "平安回家",
       },
     ],
@@ -357,6 +357,7 @@ const imageCredits = [
   ["老井燒肉福科店", "https://supertaste.tvbs.com.tw/food/354114"],
   ["逢甲夜市", "https://commons.wikimedia.org/wiki/File:1_fengjia_night_market_2019.jpg"],
   ["麵由辛生南屯店", "https://footinder.com.tw/%E5%8F%B0%E4%B8%AD%E5%B8%82%E5%8D%97%E5%B1%AF%E5%8D%80/137095/"],
+  ["中央公園遊客中心特色飛航館", "https://www.taichung.gov.tw/8868/8872/9962/3215831"],
   ["台灣公路", "https://commons.wikimedia.org/wiki/File:202603_Town_entrance_of_Hukou_Township_,Hsinchu_County_TW_PHW1.jpg"],
 ];
 

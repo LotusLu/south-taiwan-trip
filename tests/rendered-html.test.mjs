@@ -15,6 +15,8 @@ test("static itinerary contains the trip title and all four day controls", async
   assert.match(html, /<strong>23<\/strong> 站/);
   assert.match(source, /theme: "化石探險・選物・花園夜市"/);
   assert.equal(source.match(/title: "台南花園夜市"/g)?.length, 1);
+  assert.doesNotMatch(source, /title: "海安路・神農街慢步與晚餐"/);
+  assert.match(source, /title: "中央公園遊客中心・飛行體驗館"/);
   for (const image of [
     "yongle-market.jpg",
     "hudong-beef.jpg",
@@ -28,6 +30,7 @@ test("static itinerary contains the trip title and all four day controls", async
     "explore-hotel.jpg",
     "laojing-bbq.jpg",
     "noodle-lunch.jpg",
+    "central-park-flight.jpg",
   ]) assert.match(source, new RegExp(image));
   for (const day of ["01", "02", "03", "04"]) assert.match(html, new RegExp(day));
 });
